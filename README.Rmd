@@ -10,9 +10,15 @@ The goal of smstests is to produce simple multivariate statistical tests for mea
 
 You can install the development version of smstests from [GitHub](https://github.com/) with:
 
+```{r, install}
+# install.packages("devtools") # In case devtools is not installed
+devtools::install_github("ganava4/smstests")
+```
+
+
 ## Example
 
-```{r example}
+```{r example, comment = ""}
 library(smstests)
 ## basic example code
 data(skulls)
