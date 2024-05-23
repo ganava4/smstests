@@ -1,11 +1,11 @@
 
 # smstests
 
-The goal of smstests is to produce simple multivariate statistical tests
-for means and variances / covariances for one single factor with two or
-more levels, including multiple t- and Levene tests, Hotelling’s T^2
-test, extended Levene tests, one-way MANOVA, van Valen’s test and Box’s
-M test.
+The goal of **smstests** is to produce simple multivariate statistical
+tests for means and variances / covariances for one single factor with
+two or more levels, including multiple two-sample t- and Levene’s tests,
+Hotelling’s $T^2$ test, extended two-sample Levene’s tests for
+multivariate data, one-way MANOVA, van Valen’s test and Box’s M test.
 
 ## Installation
 
@@ -16,22 +16,6 @@ You can install the development version of smstests from
 # install.packages("devtools") # In case devtools is not installed
 devtools::install_github("ganava4/smstests")
 ```
-
-    ## Downloading GitHub repo ganava4/smstests@HEAD
-
-    ## 
-    ## ── R CMD build ─────────────────────────────────────────────────────────────────
-    ##          checking for file 'C:\Users\ganav\AppData\Local\Temp\RtmpcVInba\remotes425476186df\ganava4-smstests-ebc4b86/DESCRIPTION' ...  ✔  checking for file 'C:\Users\ganav\AppData\Local\Temp\RtmpcVInba\remotes425476186df\ganava4-smstests-ebc4b86/DESCRIPTION'
-    ##       ─  preparing 'smstests':
-    ##    checking DESCRIPTION meta-information ...     checking DESCRIPTION meta-information ...   ✔  checking DESCRIPTION meta-information
-    ##       ─  checking for LF line-endings in source and make files and shell scripts
-    ## ─  checking for empty or unneeded directories
-    ##       ─  building 'smstests_0.0.0.9000.tar.gz'
-    ##      
-    ## 
-
-    ## Installing package into 'C:/Users/ganav/AppData/Local/Temp/RtmpOaY0LY/temp_libpath2fa033af2f38'
-    ## (as 'lib' is unspecified)
 
 ## Example
 
