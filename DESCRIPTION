@@ -1,6 +1,6 @@
 Package: smstests
 Date: 2024-05-21
-Title: Simple multivariate significance tests
+Title: Simple multivariate significance tests and multivariate distances
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Jorge",
@@ -8,11 +8,11 @@ Authors@R:
            role = c("aut", "cre"),
            email = "ganava4@gmail.com", 
            comment = c(ORCID = "0000-0002-5027-6908"))
-Description: A collection of simple significance tests for the comparison of multivariate means and variation, covered in Chapter 4 of the book Multivariate Statistical Methods. A Primer. 5th edition.
+Description: A collection of R functions which implements simple significance tests for the comparison of multivariate means and variation, and functions for the measurement of multivariate distances, covered in Chapters 4 and 5 of the book Multivariate Statistical Methods. A Primer. 5th edition.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Depends: 
     R (>= 2.10)
 LazyData: true

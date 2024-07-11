@@ -4,7 +4,7 @@ output: github_document
 
 # smstests
 
-The goal of **smstests** is to produce simple multivariate statistical tests for means and variances / covariances for one single factor with two or more levels, including multiple two-sample t- and Levene's tests, Hotelling’s $T^2$ test, extended two-sample Levene's tests for multivariate data, one-way MANOVA, van Valen’s test and Box’s M test.
+The goal of **smstests** is to produce simple multivariate statistical tests for means and variances / covariances for one single factor with two or more levels, including multiple two-sample t- and Levene's tests, Hotelling’s $T^2$ test, extended two-sample Levene's tests for multivariate data, one-way MANOVA, van Valen’s test and Box’s M test. In addition, **smstests** offers one function for the calculation of multivariate distances: Penrose's
 
 ## Installation
 
